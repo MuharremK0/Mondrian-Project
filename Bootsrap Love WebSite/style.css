@@ -1,0 +1,34 @@
+.carousel-inner{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color:powderblue
+}
+h1,h3{
+ font-family: 'Caveat', cursive;
+ color:yellow
+}
+h2{
+    color:rosybrown;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 150% 150%;
+    animation: gradient-animation 9s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
